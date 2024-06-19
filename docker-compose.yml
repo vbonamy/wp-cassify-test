@@ -15,8 +15,13 @@ services:
        - db
      build:
       context: ./wordpress
+     healthcheck:
+      test: [ "CMD-SHELL", "curl -f -I http://wordpress" ]
+      interval: 10s
+      timeout: 10s
+      retries: 10
      ports:
-       - "8000:80"
+       - "80:80"
      restart: always
      environment:
        WORDPRESS_DB_HOST: db:3306
@@ -31,8 +36,6 @@ services:
      command: --copy-service
      volumes:
       - ./ldap-config:/container/service/slapd/assets/config/bootstrap/ldif/custom
-     ports:
-      - 3890:389
 
    cas:
      image: esupportail/apereo-cas-ldap:v6.6.0
@@ -40,6 +43,30 @@ services:
        - ./cas-config:/etc/cas
        - ./cas-config/tmp-cas:/tmp/cas
      ports:
-       - "8081:8080"
+       - "8080:8080"
      depends_on:
        - openldap
+
+   selenium-chrome:
+     image: selenium/standalone-chrome
+     healthcheck:
+       test: [ "CMD-SHELL", "curl -f -LI http://selenium-chrome:4444" ]
+       interval: 10s
+       timeout: 10s
+       retries: 10    
+     shm_size: 2gb
+     ports:
+       - '4444:4444'
+    
+   selenium-runner:
+     build:
+       context: selenium-runner
+     depends_on:
+       wordpress:
+           condition: service_healthy
+       selenium-chrome:
+           condition: service_healthy
+     volumes:
+       - './selenium-sides:/test-sides'
+#      - './selenium-sides-result:/root/test-result'
+
