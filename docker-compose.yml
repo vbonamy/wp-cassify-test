@@ -9,8 +9,6 @@ services:
        MARIADB_DATABASE: wordpress
        MARIADB_USER: wordpress
        MARIADB_PASSWORD: wordpress
-     volumes:
-       - ./docker-init-mariadb:/docker-entrypoint-initdb.d
 
    wordpress:
      depends_on:
