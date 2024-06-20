@@ -18,24 +18,34 @@
       "comment": "",
       "command": "type",
       "target": "id=username",
+      "targets": [],
       "value": "joe"
     }, {
       "id": "e0ac55b2-5943-45d7-bc96-f687d07a2086",
       "comment": "",
       "command": "type",
       "target": "id=password",
+      "targets": [],
       "value": "esup"
     }, {
       "id": "c5347b26-ba00-49aa-a19c-0cd53c871c91",
       "comment": "",
       "command": "click",
       "target": "name=submitBtn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e1ad703-ed2a-496f-9840-0c38a1c3abf8",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
       "value": ""
     }, {
       "id": "f35d24e4-e59a-4e03-ae98-9998728dd5e8",
       "comment": "",
       "command": "open",
-      "target": "http://wordpress/wp-admin/profile.php",
+      "target": "/wp-admin/profile.php",
       "targets": [],
       "value": ""
     }, {
@@ -55,6 +65,6 @@
     "timeout": 300,
     "tests": ["a1bee378-a10d-414a-9b10-feb3f13db0b9"]
   }],
-  "urls": ["http://wordpress/wp-login.php", "http://wordpress/wp-admin"],
+  "urls": ["http://wordpress/wp-login.php", "http://wordpress/wp-admin", "http://wordpress/"],
   "plugins": []
 }
