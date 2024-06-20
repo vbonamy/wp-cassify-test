@@ -29,3 +29,6 @@ You have to install the last version of docker.
 
 For debian for example, see the [official documentation](https://docs.docker.com/engine/install/debian/#install-using-the-repository)
 
+## Github Actions
+
+The project is also configured to run the tests on Github Actions. The workflow is defined in the file `.github/workflows/docker-selenium-tests.yml`.
