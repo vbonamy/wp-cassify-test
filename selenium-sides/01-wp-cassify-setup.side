@@ -11,173 +11,78 @@
       "comment": "",
       "command": "open",
       "target": "/wp-admin/install.php",
-      "targets": [],
       "value": ""
     }, {
       "id": "fcf8b9c2-2466-4874-9564-6e17c7566c07",
       "comment": "",
       "command": "click",
       "target": "id=language-continue",
-      "targets": [
-        ["id=language-continue", "id"],
-        ["css=#language-continue", "css:finder"],
-        ["xpath=//input[@id='language-continue']", "xpath:attributes"],
-        ["xpath=//form[@id='setup']/p/input", "xpath:idRelative"],
-        ["xpath=//input", "xpath:position"]
-      ],
       "value": ""
     }, {
       "id": "c8b24c93-5c37-4102-a2e0-f7defa19f274",
       "comment": "",
       "command": "type",
       "target": "id=weblog_title",
-      "targets": [
-        ["id=weblog_title", "id"],
-        ["name=weblog_title", "name"],
-        ["css=#weblog_title", "css:finder"],
-        ["xpath=//input[@id='weblog_title']", "xpath:attributes"],
-        ["xpath=//form[@id='setup']/table/tbody/tr/td/input", "xpath:idRelative"],
-        ["xpath=//input", "xpath:position"]
-      ],
       "value": "wp-cassify-test"
     }, {
       "id": "3c2ad546-ecd2-44ff-a9ad-cac0eb1a532b",
       "comment": "",
       "command": "type",
       "target": "id=user_login",
-      "targets": [
-        ["id=user_login", "id"],
-        ["name=user_name", "name"],
-        ["css=#user_login", "css:finder"],
-        ["xpath=//input[@id='user_login']", "xpath:attributes"],
-        ["xpath=//form[@id='setup']/table/tbody/tr[2]/td/input", "xpath:idRelative"],
-        ["xpath=//tr[2]/td/input", "xpath:position"]
-      ],
       "value": "wp-cassify-test"
     }, {
       "id": "b517f907-bc99-4100-8c54-75d3bdbf7b36",
       "comment": "",
       "command": "type",
       "target": "id=pass1",
-      "targets": [
-        ["id=pass1", "id"],
-        ["name=admin_password", "name"],
-        ["css=#pass1", "css:finder"],
-        ["xpath=//input[@id='pass1']", "xpath:attributes"],
-        ["xpath=//form[@id='setup']/table/tbody/tr[3]/td/div/input", "xpath:idRelative"],
-        ["xpath=//div/input", "xpath:position"]
-      ],
       "value": "secret"
     }, {
       "id": "bb8ba7ba-4fc4-4308-af4b-2a5a01582011",
       "comment": "",
       "command": "click",
       "target": "name=pw_weak",
-      "targets": [
-        ["name=pw_weak", "name"],
-        ["css=.pw-checkbox", "css:finder"],
-        ["xpath=//input[@name='pw_weak']", "xpath:attributes"],
-        ["xpath=//form[@id='setup']/table/tbody/tr[5]/td/label/input", "xpath:idRelative"],
-        ["xpath=//label/input", "xpath:position"]
-      ],
       "value": ""
     }, {
       "id": "f058bde9-18bf-431c-8786-37a4484ffd63",
       "comment": "",
       "command": "type",
       "target": "id=admin_email",
-      "targets": [
-        ["id=admin_email", "id"],
-        ["name=admin_email", "name"],
-        ["css=#admin_email", "css:finder"],
-        ["xpath=//input[@id='admin_email']", "xpath:attributes"],
-        ["xpath=//form[@id='setup']/table/tbody/tr[6]/td/input", "xpath:idRelative"],
-        ["xpath=//tr[6]/td/input", "xpath:position"]
-      ],
       "value": "wp-cassify-test@example.org"
     }, {
       "id": "c18051c3-8b49-44ca-b08e-d34605d04522",
       "comment": "",
       "command": "click",
       "target": "id=submit",
-      "targets": [
-        ["id=submit", "id"],
-        ["name=Submit", "name"],
-        ["css=#submit", "css:finder"],
-        ["xpath=//input[@id='submit']", "xpath:attributes"],
-        ["xpath=//form[@id='setup']/p/input", "xpath:idRelative"],
-        ["xpath=//p/input", "xpath:position"]
-      ],
       "value": ""
     }, {
       "id": "f18cfaa2-9218-4cf2-b507-db37bf6843f7",
       "comment": "",
       "command": "click",
       "target": "linkText=Log In",
-      "targets": [
-        ["linkText=Log In", "linkText"],
-        ["css=.button", "css:finder"],
-        ["xpath=//a[contains(text(),'Log In')]", "xpath:link"],
-        ["xpath=//a[@href='http://wordpress/wp-login.php']", "xpath:href"],
-        ["xpath=//a", "xpath:position"],
-        ["xpath=//a[contains(.,'Log In')]", "xpath:innerText"]
-      ],
       "value": ""
     }, {
       "id": "fe4fb018-b56b-4b94-8e77-fc977ad46394",
       "comment": "",
       "command": "type",
       "target": "id=user_login",
-      "targets": [
-        ["id=user_login", "id"],
-        ["name=log", "name"],
-        ["css=#user_login", "css:finder"],
-        ["xpath=//input[@id='user_login']", "xpath:attributes"],
-        ["xpath=//form[@id='loginform']/p/input", "xpath:idRelative"],
-        ["xpath=//input", "xpath:position"]
-      ],
       "value": "wp-cassify-test"
     }, {
       "id": "f9a3a689-e236-4886-bd19-a3e7d1558f68",
       "comment": "",
       "command": "type",
       "target": "id=user_pass",
-      "targets": [
-        ["id=user_pass", "id"],
-        ["name=pwd", "name"],
-        ["css=#user_pass", "css:finder"],
-        ["xpath=//input[@id='user_pass']", "xpath:attributes"],
-        ["xpath=//form[@id='loginform']/div/div/input", "xpath:idRelative"],
-        ["xpath=//div/input", "xpath:position"]
-      ],
       "value": "secret"
     }, {
       "id": "0f65ac1b-675e-4c68-8abf-80db9e90cc8b",
       "comment": "",
       "command": "click",
       "target": "id=rememberme",
-      "targets": [
-        ["id=rememberme", "id"],
-        ["name=rememberme", "name"],
-        ["css=#rememberme", "css:finder"],
-        ["xpath=//input[@id='rememberme']", "xpath:attributes"],
-        ["xpath=//form[@id='loginform']/p[2]/input", "xpath:idRelative"],
-        ["xpath=//p[2]/input", "xpath:position"]
-      ],
       "value": ""
     }, {
       "id": "dc3e0a80-3dd2-4d08-9620-90a606c70c00",
       "comment": "",
       "command": "click",
       "target": "id=wp-submit",
-      "targets": [
-        ["id=wp-submit", "id"],
-        ["name=wp-submit", "name"],
-        ["css=#wp-submit", "css:finder"],
-        ["xpath=//input[@id='wp-submit']", "xpath:attributes"],
-        ["xpath=//form[@id='loginform']/p[3]/input", "xpath:idRelative"],
-        ["xpath=//p[3]/input", "xpath:position"]
-      ],
       "value": ""
     }, {
       "id": "d21a8b22-4756-41a9-8f50-96aa07c9e296",
@@ -198,15 +103,6 @@
       "comment": "",
       "command": "click",
       "target": "id=activate-wp-cassify",
-      "targets": [
-        ["id=activate-wp-cassify", "id"],
-        ["css=#activate-wp-cassify", "css:finder"],
-        ["xpath=(//a[contains(text(),'Activate')])[3]", "xpath:link"],
-        ["xpath=//a[@id='activate-wp-cassify']", "xpath:attributes"],
-        ["xpath=//tbody[@id='the-list']/tr[4]/td/div/span/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'plugins.php?action=activate&plugin=wp-cassify%2Fwp-cassify.php&plugin_status=all&paged=1&s&_wpnonce=8aebd68b1d')]", "xpath:href"],
-        ["xpath=//tr[4]/td/div/span/a", "xpath:position"]
-      ],
       "value": ""
     }, {
       "id": "fa0f7321-5f8c-4b06-8c08-db20929b4c97",
@@ -227,112 +123,55 @@
       "comment": "",
       "command": "click",
       "target": "id=wp_cassify_base_url",
-      "targets": [
-        ["id=wp_cassify_base_url", "id"],
-        ["name=wp_cassify_base_url", "name"],
-        ["css=#wp_cassify_base_url", "css:finder"],
-        ["xpath=//input[@id='wp_cassify_base_url']", "xpath:attributes"],
-        ["xpath=//div[@id='wp_cassify_metabox_general_settings']/div[2]/table/tbody/tr/td/input", "xpath:idRelative"],
-        ["xpath=//td/input", "xpath:position"]
-      ],
       "value": ""
     }, {
       "id": "5cd84625-4961-459d-96df-93064efeb21e",
       "comment": "",
       "command": "type",
       "target": "id=wp_cassify_base_url",
-      "targets": [
-        ["id=wp_cassify_base_url", "id"],
-        ["name=wp_cassify_base_url", "name"],
-        ["css=#wp_cassify_base_url", "css:finder"],
-        ["xpath=//input[@id='wp_cassify_base_url']", "xpath:attributes"],
-        ["xpath=//div[@id='wp_cassify_metabox_general_settings']/div[2]/table/tbody/tr/td/input", "xpath:idRelative"],
-        ["xpath=//td/input", "xpath:position"]
-      ],
       "value": "http://cas:8080/cas/"
     }, {
       "id": "3244a94f-00b1-4ddb-9c4f-9f5038f43dd1",
       "comment": "",
       "command": "click",
       "target": "id=wp_cassify_create_user_if_not_exist",
-      "targets": [
-        ["id=wp_cassify_create_user_if_not_exist", "id"],
-        ["name=wp_cassify_create_user_if_not_exist", "name"],
-        ["css=#wp_cassify_create_user_if_not_exist", "css:finder"],
-        ["xpath=//input[@id='wp_cassify_create_user_if_not_exist']", "xpath:attributes"],
-        ["xpath=//div[@id='wp_cassify_metabox_general_settings']/div[2]/table/tbody/tr[4]/td/input", "xpath:idRelative"],
-        ["xpath=//tr[4]/td/input", "xpath:position"]
-      ],
       "value": ""
     }, {
       "id": "2d607694-4fc2-49de-a7aa-df1464637a26",
       "comment": "",
       "command": "click",
       "target": "id=wp_cassify_save_options_general_settings",
-      "targets": [
-        ["id=wp_cassify_save_options_general_settings", "id"],
-        ["name=wp_cassify_save_options_general_settings", "name"],
-        ["css=#wp_cassify_save_options_general_settings", "css:finder"],
-        ["xpath=//input[@id='wp_cassify_save_options_general_settings']", "xpath:attributes"],
-        ["xpath=//div[@id='wp_cassify_metabox_general_settings']/div[2]/input", "xpath:idRelative"],
-        ["xpath=//div[2]/input", "xpath:position"]
-      ],
       "value": ""
     }, {
       "id": "76b9066a-2153-4152-8d5e-9f49d71e6d74",
       "comment": "",
       "command": "type",
       "target": "id=wp_cassify_user_role_rule",
-      "targets": [
-        ["id=wp_cassify_user_role_rule", "id"],
-        ["name=wp_cassify_user_role_rule", "name"],
-        ["css=#wp_cassify_user_role_rule", "css:finder"],
-        ["xpath=//input[@id='wp_cassify_user_role_rule']", "xpath:attributes"],
-        ["xpath=//div[@id='wp_cassify_metabox_users_roles_settings']/div[2]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
-        ["xpath=//div[5]/div[2]/table/tbody/tr[2]/td/input", "xpath:position"]
-      ],
       "value": "(CAS{cas_user_id} -EQ \"joe\") "
     }, {
       "id": "6528e8b9-5503-4196-9f25-66725a2114e2",
       "comment": "",
       "command": "click",
       "target": "id=wp_cassify_add_user_role_rule",
-      "targets": [
-        ["id=wp_cassify_add_user_role_rule", "id"],
-        ["name=wp_cassify_add_user_role_rule", "name"],
-        ["css=#wp_cassify_add_user_role_rule", "css:finder"],
-        ["xpath=//input[@id='wp_cassify_add_user_role_rule']", "xpath:attributes"],
-        ["xpath=//div[@id='wp_cassify_metabox_users_roles_settings']/div[2]/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
-        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
-      ],
       "value": ""
     }, {
       "id": "1b3ac824-383d-4dec-9785-8e710c48c352",
       "comment": "",
       "command": "click",
       "target": "id=wp_cassify_user_purge_user_roles_before_applying_rules",
-      "targets": [
-        ["id=wp_cassify_user_purge_user_roles_before_applying_rules", "id"],
-        ["name=wp_cassify_user_purge_user_roles_before_applying_rules", "name"],
-        ["css=#wp_cassify_user_purge_user_roles_before_applying_rules", "css:finder"],
-        ["xpath=//input[@id='wp_cassify_user_purge_user_roles_before_applying_rules']", "xpath:attributes"],
-        ["xpath=//div[@id='wp_cassify_metabox_users_roles_settings']/div[2]/table/tbody/tr[4]/td/input", "xpath:idRelative"],
-        ["xpath=//div[5]/div[2]/table/tbody/tr[4]/td/input", "xpath:position"]
-      ],
       "value": ""
     }, {
       "id": "ce04f4f1-64d5-4e32-9237-990a8a7dbaf2",
       "comment": "",
       "command": "click",
       "target": "id=wp_cassify_save_options_users_roles_settings",
-      "targets": [
-        ["id=wp_cassify_save_options_users_roles_settings", "id"],
-        ["name=wp_cassify_save_options_users_roles_settings", "name"],
-        ["css=#wp_cassify_save_options_users_roles_settings", "css:finder"],
-        ["xpath=//input[@id='wp_cassify_save_options_users_roles_settings']", "xpath:attributes"],
-        ["xpath=//div[@id='wp_cassify_metabox_users_roles_settings']/div[2]/input", "xpath:idRelative"],
-        ["xpath=//div[5]/div[2]/input", "xpath:position"]
-      ],
+      "value": ""
+    }, {
+      "id": "1a668e4b-bef7-4219-9819-194a9dc0bc64",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
       "value": ""
     }]
   }],
