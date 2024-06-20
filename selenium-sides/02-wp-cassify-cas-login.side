@@ -1,0 +1,82 @@
+{
+  "id": "eafcb28a-1a54-491b-8212-d272e107906c",
+  "version": "2.0",
+  "name": "wp-cassify-cas-login",
+  "url": "http://wordpress/wp-admin",
+  "tests": [{
+    "id": "a1bee378-a10d-414a-9b10-feb3f13db0b9",
+    "name": "wp-cassify-cas-login",
+    "commands": [{
+      "id": "7a5bf451-7ead-4538-a63c-78e45860021c",
+      "comment": "",
+      "command": "open",
+      "target": "http://cas:8080/cas/login?service=http://wordpress/wp-admin/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "400cbca5-1f3a-4a1b-b87e-841c86db47bb",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//section[@id='usernameSection']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "joe"
+    }, {
+      "id": "e0ac55b2-5943-45d7-bc96-f687d07a2086",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//section[@id='passwordSection']/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//div/label/input", "xpath:position"]
+      ],
+      "value": "esup"
+    }, {
+      "id": "c5347b26-ba00-49aa-a19c-0cd53c871c91",
+      "comment": "",
+      "command": "click",
+      "target": "name=submitBtn",
+      "targets": [
+        ["css=.mdc-button:nth-child(6) > .mdc-button__label", "css:finder"],
+        ["xpath=//div[@id='login-form-controls']/button/span", "xpath:idRelative"],
+        ["xpath=//div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'SE CONNECTER')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f35d24e4-e59a-4e03-ae98-9998728dd5e8",
+      "comment": "",
+      "command": "open",
+      "target": "http://wordpress/wp-admin/profile.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5efb9004-d180-4065-a700-3dc7833ff56f",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "id=user_login",
+      "targets": [],
+      "value": "joe"
+    }]
+  }],
+  "suites": [{
+    "id": "34d4f838-b6ca-44d3-91da-9d16c6f0c0e2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a1bee378-a10d-414a-9b10-feb3f13db0b9"]
+  }],
+  "urls": ["http://wordpress/wp-login.php", "http://wordpress/wp-admin"],
+  "plugins": []
+}
