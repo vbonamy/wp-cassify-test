@@ -2,7 +2,7 @@
   "id": "eafcb28a-1a54-491b-8212-d272e107906c",
   "version": "2.0",
   "name": "wp-cassify-cas-login",
-  "url": "http://wordpress/wp-admin",
+  "url": "http://wordpress",
   "tests": [{
     "id": "a1bee378-a10d-414a-9b10-feb3f13db0b9",
     "name": "wp-cassify-cas-login",
@@ -10,7 +10,7 @@
       "id": "7a5bf451-7ead-4538-a63c-78e45860021c",
       "comment": "",
       "command": "open",
-      "target": "http://cas:8080/cas/login?service=http://wordpress/wp-admin/",
+      "target": "/wp-admin",
       "targets": [],
       "value": ""
     }, {
