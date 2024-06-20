@@ -183,7 +183,7 @@
       "id": "d8fc23d2-f158-401e-b924-ab566c0ee30c",
       "comment": "",
       "command": "open",
-      "target": "http://wordpress/wp-admin/plugins.php",
+      "target": "/wp-admin/plugins.php",
       "targets": [],
       "value": ""
     }, {
@@ -205,7 +205,7 @@
       "id": "201cf59c-547e-4767-b117-fe4a2ddc27e3",
       "comment": "",
       "command": "open",
-      "target": "http://wordpress/wp-admin/options-general.php?page=wp-cassify.php",
+      "target": "/wp-admin/options-general.php?page=wp-cassify.php",
       "targets": [],
       "value": ""
     }, {
