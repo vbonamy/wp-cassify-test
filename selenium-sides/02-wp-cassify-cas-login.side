@@ -18,40 +18,18 @@
       "comment": "",
       "command": "type",
       "target": "id=username",
-      "targets": [
-        ["id=username", "id"],
-        ["name=username", "name"],
-        ["css=#username", "css:finder"],
-        ["xpath=//input[@id='username']", "xpath:attributes"],
-        ["xpath=//section[@id='usernameSection']/label/input", "xpath:idRelative"],
-        ["xpath=//input", "xpath:position"]
-      ],
       "value": "joe"
     }, {
       "id": "e0ac55b2-5943-45d7-bc96-f687d07a2086",
       "comment": "",
       "command": "type",
       "target": "id=password",
-      "targets": [
-        ["id=password", "id"],
-        ["name=password", "name"],
-        ["css=#password", "css:finder"],
-        ["xpath=//input[@id='password']", "xpath:attributes"],
-        ["xpath=//section[@id='passwordSection']/div/div/label/input", "xpath:idRelative"],
-        ["xpath=//div/label/input", "xpath:position"]
-      ],
       "value": "esup"
     }, {
       "id": "c5347b26-ba00-49aa-a19c-0cd53c871c91",
       "comment": "",
       "command": "click",
       "target": "name=submitBtn",
-      "targets": [
-        ["css=.mdc-button:nth-child(6) > .mdc-button__label", "css:finder"],
-        ["xpath=//div[@id='login-form-controls']/button/span", "xpath:idRelative"],
-        ["xpath=//div/button/span", "xpath:position"],
-        ["xpath=//span[contains(.,'SE CONNECTER')]", "xpath:innerText"]
-      ],
       "value": ""
     }, {
       "id": "f35d24e4-e59a-4e03-ae98-9998728dd5e8",
