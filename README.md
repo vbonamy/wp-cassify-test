@@ -20,8 +20,10 @@ There are two tests:
 
 To launch all the dockers, included the selenium tests, simply run:
 ```
-docker compose up
+docker compose up --force-recreate -V
 ```
+
+--force-recreate is used to recreate database container so that the tests can be run on a clean database.
 
 ## Requirements
 
