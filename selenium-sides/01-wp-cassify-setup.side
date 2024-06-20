@@ -264,6 +264,62 @@
         ["xpath=//div[2]/input", "xpath:position"]
       ],
       "value": ""
+    }, {
+      "id": "76b9066a-2153-4152-8d5e-9f49d71e6d74",
+      "comment": "",
+      "command": "type",
+      "target": "id=wp_cassify_user_role_rule",
+      "targets": [
+        ["id=wp_cassify_user_role_rule", "id"],
+        ["name=wp_cassify_user_role_rule", "name"],
+        ["css=#wp_cassify_user_role_rule", "css:finder"],
+        ["xpath=//input[@id='wp_cassify_user_role_rule']", "xpath:attributes"],
+        ["xpath=//div[@id='wp_cassify_metabox_users_roles_settings']/div[2]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/table/tbody/tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "(CAS{cas_user_id} -EQ \"joe\") "
+    }, {
+      "id": "6528e8b9-5503-4196-9f25-66725a2114e2",
+      "comment": "",
+      "command": "click",
+      "target": "id=wp_cassify_add_user_role_rule",
+      "targets": [
+        ["id=wp_cassify_add_user_role_rule", "id"],
+        ["name=wp_cassify_add_user_role_rule", "name"],
+        ["css=#wp_cassify_add_user_role_rule", "css:finder"],
+        ["xpath=//input[@id='wp_cassify_add_user_role_rule']", "xpath:attributes"],
+        ["xpath=//div[@id='wp_cassify_metabox_users_roles_settings']/div[2]/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b3ac824-383d-4dec-9785-8e710c48c352",
+      "comment": "",
+      "command": "click",
+      "target": "id=wp_cassify_user_purge_user_roles_before_applying_rules",
+      "targets": [
+        ["id=wp_cassify_user_purge_user_roles_before_applying_rules", "id"],
+        ["name=wp_cassify_user_purge_user_roles_before_applying_rules", "name"],
+        ["css=#wp_cassify_user_purge_user_roles_before_applying_rules", "css:finder"],
+        ["xpath=//input[@id='wp_cassify_user_purge_user_roles_before_applying_rules']", "xpath:attributes"],
+        ["xpath=//div[@id='wp_cassify_metabox_users_roles_settings']/div[2]/table/tbody/tr[4]/td/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/table/tbody/tr[4]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce04f4f1-64d5-4e32-9237-990a8a7dbaf2",
+      "comment": "",
+      "command": "click",
+      "target": "id=wp_cassify_save_options_users_roles_settings",
+      "targets": [
+        ["id=wp_cassify_save_options_users_roles_settings", "id"],
+        ["name=wp_cassify_save_options_users_roles_settings", "name"],
+        ["css=#wp_cassify_save_options_users_roles_settings", "css:finder"],
+        ["xpath=//input[@id='wp_cassify_save_options_users_roles_settings']", "xpath:attributes"],
+        ["xpath=//div[@id='wp_cassify_metabox_users_roles_settings']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
     }]
   }],
   "suites": [{

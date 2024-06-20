@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: run selenium tests in dockers env and stop it
-      run: docker compose up --abort-on-container-exit --force-recreate -V
+      run: docker compose up --abort-on-container-exit

@@ -20,8 +20,8 @@ services:
       interval: 10s
       timeout: 10s
       retries: 10
-     #ports:
-     #  - "80:80"
+     ports:
+       - "80:80"
      restart: always
      environment:
        WORDPRESS_DB_HOST: db:3306
@@ -42,8 +42,8 @@ services:
      volumes:
        - ./cas-config:/etc/cas
        - ./cas-config/tmp-cas:/tmp/cas
-     #ports:
-     #  - "8080:8080"
+     ports:
+       - "8080:8080"
      depends_on:
        - openldap
 
@@ -55,8 +55,8 @@ services:
        timeout: 10s
        retries: 10    
      shm_size: 2gb
-     #ports:
-     #  - '4444:4444'
+     ports:
+       - '4444:4444'
     
    selenium-runner:
      build:

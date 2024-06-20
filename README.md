@@ -20,16 +20,34 @@ There are two tests:
 
 To launch all the dockers, included the selenium tests, simply run:
 ```
-docker compose up --force-recreate -V
+docker compose up 
 ```
-
---force-recreate is used to recreate database container so that the tests can be run on a clean database.
 
 ## Requirements
 
 You have to install the last version of docker.
 
 For debian for example, see the [official documentation](https://docs.docker.com/engine/install/debian/#install-using-the-repository)
+
+## Ports and URLs
+
+Ports 80, 8080 and 4444 are exposed on the host machine and must be free.
+
+The WordPress instance is available at http://localhost but to be compliant with selenium tests, it is better to modify the /etc/hosts file to add the following line:
+```
+127.0.0.1 wordpress cas
+```
+
+With this, you can access the WordPress instance at http://wordpress and the CAS server at http://cas:8080.
+
+Selenium Grid is available at http://localhost:4444.
+
+On the WordPress instance, the Selenium Test configured Administrators are users with id joe.
+So you can login with the following credentials:
+```
+username: joe
+password: esup
+```
 
 ## Github Actions
 
