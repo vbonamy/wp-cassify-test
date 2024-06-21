@@ -103,7 +103,7 @@
       "command": "waitForElementVisible",
       "target": "id=welcome-panel",
       "targets": [],
-      "value": "60000"
+      "value": "30000"
     }, {
       "id": "d8fc23d2-f158-401e-b924-ab566c0ee30c",
       "comment": "",
@@ -117,7 +117,7 @@
       "command": "waitForElementVisible",
       "target": "id=activate-wp-cassify",
       "targets": [],
-      "value": "60000"
+      "value": "30000"
     }, {
       "id": "db05b37c-a30a-4d0e-9e0b-318d913143a2",
       "comment": "",
@@ -131,7 +131,7 @@
       "command": "waitForElementVisible",
       "target": "id=deactivate-wp-cassify",
       "targets": [],
-      "value": "60000"
+      "value": "30000"
     }, {
       "id": "426b90bb-9eb0-447b-af9a-91263f538908",
       "comment": "",
@@ -152,7 +152,7 @@
       "command": "waitForElementVisible",
       "target": "id=wp_cassify_base_url",
       "targets": [],
-      "value": "60000"
+      "value": "30000"
     }, {
       "id": "5fab91d5-68d6-4425-a817-389de589d9e7",
       "comment": "",
@@ -209,13 +209,6 @@
       "target": "id=wp_cassify_save_options_users_roles_settings",
       "targets": [],
       "value": ""
-    }, {
-      "id": "1a668e4b-bef7-4219-9819-194a9dc0bc64",
-      "comment": "",
-      "command": "waitForElementPresent",
-      "target": "css=#wp_cassify_user_role_rules > option",
-      "targets": [],
-      "value": "60000"
     }]
   }],
   "suites": [{
