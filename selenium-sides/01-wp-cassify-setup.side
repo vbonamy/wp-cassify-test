@@ -112,6 +112,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "620e6290-441c-4411-b31b-ec4162fc3aa3",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=activate-wp-cassify",
+      "targets": [],
+      "value": "30000"
+    }, {
       "id": "db05b37c-a30a-4d0e-9e0b-318d913143a2",
       "comment": "",
       "command": "click",
