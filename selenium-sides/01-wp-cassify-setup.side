@@ -130,7 +130,15 @@
       "comment": "",
       "command": "click",
       "target": "linkText=WP Cassify",
-      "targets": [],
+      "targets": [
+        ["linkText=WP Cassify", "linkText"],
+        ["css=#menu-settings li:nth-child(9) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'WP Cassify')]", "xpath:link"],
+        ["xpath=//li[@id='menu-settings']/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'options-general.php?page=wp-cassify.php')]", "xpath:href"],
+        ["xpath=//li[12]/ul/li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'WP Cassify')]", "xpath:innerText"]
+      ],
       "value": ""
     }, {
       "id": "5fab91d5-68d6-4425-a817-389de589d9e7",
