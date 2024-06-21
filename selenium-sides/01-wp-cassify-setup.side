@@ -147,6 +147,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "a400d140-39a5-4432-9a65-858afd64b0e3",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=wp_cassify_base_url",
+      "targets": [],
+      "value": "30000"
+    }, {
       "id": "5fab91d5-68d6-4425-a817-389de589d9e7",
       "comment": "",
       "command": "click",
