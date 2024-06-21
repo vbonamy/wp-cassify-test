@@ -1,7 +1,7 @@
 Development and testing environment for WP-CASSIFY - A WordPress CAS plugin
 ============================
 
-This project provides a development and testing environment for the WP-CASSIFY plugin with a docker-compose file that sets up 
+This project provides a development and testing environment for the WP-CASSIFY plugin - https://wordpress.org/plugins/wp-cassify - with a docker-compose file that sets up 
  * a WordPress instance with the WP-CASSIFY plugin installed
  * a MariaDB database
  * an Apereo CAS server
