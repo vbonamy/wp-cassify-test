@@ -50,7 +50,7 @@ services:
        - openldap
 
    selenium-chrome:
-     image: selenium/standalone-chrome
+     image: selenium/standalone-chrome:125.0
      healthcheck:
        test: [ "CMD-SHELL", "curl -f -LI http://selenium-chrome:4444" ]
        interval: 10s
