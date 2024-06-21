@@ -26,6 +26,8 @@ services:
        WORDPRESS_DB_USER: wordpress
        WORDPRESS_DB_PASSWORD: wordpress
        XDEBUG_CONFIG: client_host=10.197.1.85
+       WORDPRESS_CONFIG_EXTRA: |
+        define('DISABLE_WP_CRON', true );
      volumes:
        - ./wp-cassify:/usr/src/wordpress/wp-content/plugins/wp-cassify
 
