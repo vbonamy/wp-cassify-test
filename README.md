@@ -18,9 +18,14 @@ There are two tests:
 
 ## Usage
 
-To launch all the dockers, included the selenium tests, simply run:
+To launch all the dockers, included the selenium tests, with wordpress (on php8), simply run:
 ```
 docker compose up 
+```
+
+If you want to test with wordpress on php7, use instead :
+```
+docker compose -f docker-compose.yml -f docker-compose-php7.yml up 
 ```
 
 ## Requirements
@@ -51,4 +56,4 @@ password: esup
 
 ## Github Actions
 
-The project is also configured to run the tests on Github Actions. The workflow is defined in the file `.github/workflows/docker-selenium-tests.yml`.
+The project is also configured to run the tests on Github Actions. The workflow is defined in the file `.github/workflows/docker-selenium-tests.yml` and `.github/workflows/docker-selenium-tests-php7.yml` (to keep compatibility woth wordpress on php7)

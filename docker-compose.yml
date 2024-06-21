@@ -12,7 +12,7 @@ services:
      depends_on:
        - db
      build:
-      context: ./wordpress
+      context: ./wordpress-php8
      healthcheck:
       test: [ "CMD-SHELL", "curl -f -I http://wordpress" ]
       interval: 10s
