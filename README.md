@@ -54,6 +54,36 @@ username: joe
 password: esup
 ```
 
+## Reset the wordpress instance
+
+If you want to reset the wordpress instance, after launched docker-compose, you can connect to the mariadb docker instance and remove/recreate the wordpress database.
+
+To list the docker instances:
+```  
+docker ps
+```
+
+You take the container id of the mariadb instance and connect to it:
+```
+docker exec -it <container_id> bash
+```
+
+Then you connect to the mariadb database:
+```
+mysql -psomewordpress
+```
+
+You delete and (re)create the wordpress database:
+```
+DROP DATABASE wordpress;
+CREATE DATABASE wordpress;
+```
+
+You can relaunch the selenium tests with Seleniuem IDE or via the docker 'selenium-runner' with the following command:
+```
+docker up selenium-runner 
+```
+
 ## Github Actions
 
 The project is also configured to run the tests on Github Actions. The workflow is defined in the file `.github/workflows/docker-selenium-tests.yml` and `.github/workflows/docker-selenium-tests-php7.yml` (to keep compatibility woth wordpress on php7)
