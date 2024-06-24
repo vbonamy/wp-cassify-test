@@ -79,7 +79,11 @@ DROP DATABASE wordpress;
 CREATE DATABASE wordpress;
 ```
 
-You can relaunch the selenium tests with Seleniuem IDE or via the docker 'selenium-runner' with the following command:
+You can relaunch the selenium tests with Selenium IDE :
+* selenium-sides/01-wp-cassify-setup.side
+* selenium-sides/02-wp-cassify-cas-login.side
+
+... or you can also relaunch the tests via the docker 'selenium-runner' with the following command:
 ```
 docker up selenium-runner 
 ```
