@@ -1,4 +1,4 @@
-{
+0{
   "id": "08f8d02b-884d-431c-b39d-0b07807b7899",
   "version": "2.0",
   "name": "wp-cassify-setup",
@@ -207,6 +207,27 @@
       "comment": "",
       "command": "click",
       "target": "id=wp_cassify_save_options_users_roles_settings",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7014fcf-636c-4cec-8d31-b353cfb8ebde",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#wp-admin-bar-logout > a",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "e311148e-98fc-455d-903e-2985f7a22e35",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=wp-admin-bar-my-account",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3a81c0b-aa42-47a3-9311-7223cfcab726",
+      "comment": "",
+      "command": "click",
+      "target": "css=#wp-admin-bar-logout > a",
       "targets": [],
       "value": ""
     }]
