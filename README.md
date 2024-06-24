@@ -70,7 +70,7 @@ docker exec -it <container_id> bash
 
 Then you connect to the mariadb database:
 ```
-mysql -psomewordpress
+mariadb -psomewordpress
 ```
 
 You delete and (re)create the wordpress database:
