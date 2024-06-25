@@ -100,10 +100,17 @@
     }, {
       "id": "dc544740-6949-49ad-b4d1-52f63e87c025",
       "comment": "",
-      "command": "waitForElementVisible",
-      "target": "id=welcome-panel",
+      "command": "waitForElementPresent",
+      "target": "id=menu-plugins",
       "targets": [],
       "value": "30000"
+    }, {
+      "id": "e7fab72b-1ce7-4769-95f4-fd2610086ff0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=menu-plugins",
+      "targets": [],
+      "value": ""
     }, {
       "id": "d8fc23d2-f158-401e-b924-ab566c0ee30c",
       "comment": "",
@@ -114,7 +121,7 @@
     }, {
       "id": "620e6290-441c-4411-b31b-ec4162fc3aa3",
       "comment": "",
-      "command": "waitForElementVisible",
+      "command": "waitForElementPresent",
       "target": "id=activate-wp-cassify",
       "targets": [],
       "value": "30000"
@@ -126,25 +133,22 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "fa0f7321-5f8c-4b06-8c08-db20929b4c97",
-      "comment": "",
-      "command": "waitForElementVisible",
-      "target": "id=deactivate-wp-cassify",
-      "targets": [],
-      "value": "30000"
-    }, {
-      "id": "426b90bb-9eb0-447b-af9a-91263f538908",
+      "id": "fac0d544-8370-436d-b52a-d679f96467e3",
       "comment": "",
       "command": "click",
-      "target": "css=#menu-settings > a",
-      "targets": [],
+      "target": "css=.menu-icon-settings > .wp-menu-name",
+      "targets": [
+       
+      ],
       "value": ""
     }, {
-      "id": "201cf59c-547e-4767-b117-fe4a2ddc27e3",
+      "id": "1aeb48aa-47e9-44c3-9fee-0de087790ea2",
       "comment": "",
       "command": "click",
-      "target": "xpath=//a[@href= 'options-general.php?page=wp-cassify.php']",
-      "targets": [],
+      "target": "linkText=WP Cassify",
+      "targets": [
+        
+      ],
       "value": ""
     }, {
       "id": "a400d140-39a5-4432-9a65-858afd64b0e3",
