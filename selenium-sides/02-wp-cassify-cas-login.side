@@ -35,22 +35,18 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "6389fbd3-c2f5-46f5-baba-2205d9e73e20",
+      "id": "a582e90f-d89e-4f22-9b21-871427134b7a",
       "comment": "",
-      "command": "click",
-      "target": "css=.menu-icon-plugins > .wp-menu-name",
-      "targets": [
-        
-      ],
+      "command": "verifyElementPresent",
+      "target": "css=.menu-icon-plugins",
+      "targets": [],
       "value": ""
     }, {
       "id": "5efb9004-d180-4065-a700-3dc7833ff56f",
       "comment": "",
       "command": "verifyText",
       "target": "css=.display-name",
-      "targets": [
-       
-      ],
+      "targets": [],
       "value": "joe"
     }, {
       "id": "35a5bd09-5b3e-46a0-8b39-818e194c9517",
@@ -64,9 +60,7 @@
       "comment": "",
       "command": "click",
       "target": "linkText=Log Out",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }]
   }],
