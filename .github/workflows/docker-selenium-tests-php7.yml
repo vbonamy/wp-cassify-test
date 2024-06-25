@@ -2,9 +2,11 @@ name: Docker Selenium Tests for wordpress (php7)
 
 on:
   push:
-    branches: [ "*" ]
+    branches:
+      - main
   pull_request:
-    branches: [ "*" ]
+    branches:
+      - main
 
 jobs:
 
