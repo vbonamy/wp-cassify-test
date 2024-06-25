@@ -37,15 +37,8 @@
     }, {
       "id": "a582e90f-d89e-4f22-9b21-871427134b7a",
       "comment": "",
-      "command": "mouseOver",
-      "target": "css=.menu-icon-plugins > .wp-menu-name",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "6389fbd3-c2f5-46f5-baba-2205d9e73e20",
-      "comment": "",
-      "command": "click",
-      "target": "css=.menu-icon-plugins > .wp-menu-name",
+      "command": "verifyElementPresent",
+      "target": "css=.menu-icon-plugins",
       "targets": [],
       "value": ""
     }, {
