@@ -35,26 +35,39 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "5e1ad703-ed2a-496f-9840-0c38a1c3abf8",
+      "id": "6389fbd3-c2f5-46f5-baba-2205d9e73e20",
       "comment": "",
-      "command": "pause",
-      "target": "5000",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "f35d24e4-e59a-4e03-ae98-9998728dd5e8",
-      "comment": "",
-      "command": "open",
-      "target": "/wp-admin/profile.php",
-      "targets": [],
+      "command": "click",
+      "target": "css=.menu-icon-plugins > .wp-menu-name",
+      "targets": [
+        
+      ],
       "value": ""
     }, {
       "id": "5efb9004-d180-4065-a700-3dc7833ff56f",
       "comment": "",
-      "command": "verifyValue",
-      "target": "id=user_login",
-      "targets": [],
+      "command": "verifyText",
+      "target": "css=.display-name",
+      "targets": [
+       
+      ],
       "value": "joe"
+    }, {
+      "id": "35a5bd09-5b3e-46a0-8b39-818e194c9517",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=wp-admin-bar-my-account",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d2f3e0a-b618-43c6-bfa9-a4e482dad943",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log Out",
+      "targets": [
+        
+      ],
+      "value": ""
     }]
   }],
   "suites": [{
