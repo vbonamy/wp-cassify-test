@@ -27,7 +27,7 @@ services:
        WORDPRESS_CONFIG_EXTRA: |
         define('DISABLE_WP_CRON', true );
      volumes:
-       - ./wp-cassify:/usr/src/wordpress/wp-content/plugins/wp-cassify
+       - ./wp-cassify:/var/www/html/wp-content/plugins/wp-cassify
 
    openldap:
      image: osixia/openldap:1.5.0
