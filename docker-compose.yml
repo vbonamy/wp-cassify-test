@@ -28,6 +28,11 @@ services:
         define('DISABLE_WP_CRON', true );
      volumes:
        - ./wp-cassify:/var/www/html/wp-content/plugins/wp-cassify
+     networks:
+       default:
+         aliases:
+           - wordpress1
+           - wordpress2
 
    openldap:
      image: osixia/openldap:1.5.0
