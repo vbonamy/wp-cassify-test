@@ -14,6 +14,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "bd87f7a4-6872-4e80-94a1-c14628afed68",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1432x1484",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "400cbca5-1f3a-4a1b-b87e-841c86db47bb",
       "comment": "",
       "command": "type",
@@ -35,12 +42,26 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "8f007826-1781-4150-9f1c-9375ff49b96f",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.display-name",
+      "targets": [],
+      "value": "30000"
+    }, {
       "id": "5efb9004-d180-4065-a700-3dc7833ff56f",
       "comment": "",
       "command": "verifyText",
       "target": "css=.display-name",
       "targets": [],
       "value": "joe"
+    }, {
+      "id": "f844351b-6b14-4248-ac46-6eb75e8f5719",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "id=wp-admin-bar-my-account",
+      "targets": [],
+      "value": "30000"
     }, {
       "id": "35a5bd09-5b3e-46a0-8b39-818e194c9517",
       "comment": "",
