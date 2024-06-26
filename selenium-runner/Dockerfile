@@ -2,7 +2,7 @@ FROM node:21-alpine
 
 RUN npm install -g selenium-side-runner
 
-WORKDIR /root
+WORKDIR /selenium-sides
 
 CMD selenium-side-runner -s http://selenium-chrome:4444 /test-sides/01-* \
     && selenium-side-runner -s http://selenium-chrome:4444 /test-sides/02-* \
