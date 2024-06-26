@@ -54,14 +54,31 @@ services:
 
    selenium-chrome:
      image: selenium/standalone-chrome:125.0
+     container_name: selenium-chrome     
      healthcheck:
        test: [ "CMD-SHELL", "curl -f -LI http://selenium-chrome:4444" ]
        interval: 10s
        timeout: 10s
        retries: 10    
-     shm_size: 2gb
-     ports:
-       - '4444:4444'
+     shm_size: 1gb
+     ulimits:
+      nofile:
+        soft: "65536"
+        hard: "65536"     
+
+   selenium-firefox:
+     image: selenium/standalone-firefox:125.0
+     container_name: selenium-firefox
+     healthcheck:
+       test: [ "CMD-SHELL", "curl -f -LI http://selenium-firefox:4444" ]
+       interval: 10s
+       timeout: 10s
+       retries: 10    
+     shm_size: 1gb
+     ulimits:
+      nofile:
+        soft: "65536"
+        hard: "65536"
     
    selenium-runner:
      build:
@@ -71,6 +88,8 @@ services:
            condition: service_healthy
        selenium-chrome:
            condition: service_healthy
+       selenium-firefox:
+           condition: service_healthy           
        cas:
            condition: service_healthy	   
      volumes:
