@@ -43,7 +43,7 @@ services:
       - ./ldap-config:/container/service/slapd/assets/config/bootstrap/ldif/custom
 
    cas:
-     image: esupportail/apereo-cas-ldap:v6.6.0
+     image: esupportail/apereo-cas-ldap:6.6.15.2
      healthcheck:
       test: [ "CMD-SHELL", "curl -f -I http://cas:8080/cas" ]
       interval: 10s
