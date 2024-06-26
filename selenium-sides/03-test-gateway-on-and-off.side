@@ -18,36 +18,28 @@
       "comment": "",
       "command": "type",
       "target": "id=username",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": "joe"
     }, {
       "id": "e4efa642-2113-4bc6-9271-42c75ce1ab0e",
       "comment": "",
       "command": "click",
       "target": "id=password",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "268410f8-8540-478d-a464-6974a2fd9b72",
       "comment": "",
       "command": "type",
       "target": "id=password",
-      "targets": [
-       
-      ],
+      "targets": [],
       "value": "esup"
     }, {
       "id": "8a545af5-845a-4417-9306-9c8f44c94672",
       "comment": "",
       "command": "click",
       "target": "css=.mdc-button:nth-child(6) > .mdc-button__label",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "00e91c4f-595d-4e37-87bd-ac330bab5a83",
@@ -75,18 +67,14 @@
       "comment": "",
       "command": "click",
       "target": "linkText=log out",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "005e670b-1308-458d-ac9a-24efcc7713ab",
       "comment": "",
       "command": "click",
       "target": "linkText=log in",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }]
   }, {
@@ -104,36 +92,28 @@
       "comment": "",
       "command": "type",
       "target": "id=username",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": "joe"
     }, {
       "id": "b68321ca-8fa9-4036-85a8-f6214584c763",
       "comment": "",
       "command": "click",
       "target": "id=password",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "4dc6d122-47e6-452d-a310-340a594b12fc",
       "comment": "",
       "command": "type",
       "target": "id=password",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": "esup"
     }, {
       "id": "049f6f9c-0b5e-49c8-a5fd-ef8b6d19390f",
       "comment": "",
       "command": "click",
       "target": "name=submitBtn",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "d919dd69-535a-4f8f-88c7-4ffe4b3ad255",
@@ -147,45 +127,35 @@
       "comment": "",
       "command": "click",
       "target": "css=.menu-icon-settings > .wp-menu-name",
-      "targets": [
-       
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "2a68ef46-aced-40df-9fd1-10c4b1e80393",
       "comment": "",
       "command": "click",
       "target": "linkText=WP Cassify",
-      "targets": [
-      
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "7102f8aa-011a-4ce0-909c-219aa65ec83a",
       "comment": "",
       "command": "click",
       "target": "css=#wp_cassify_metabox_general_settings tr:nth-child(6) > td",
-      "targets": [
-       
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "585fd6a6-97d5-4a14-83a6-6587d5210659",
       "comment": "",
       "command": "click",
       "target": "id=wp_cassify_enable_gateway_mode",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "fbcefca1-2f91-43f2-8cea-88ccf58f172d",
       "comment": "",
       "command": "click",
       "target": "id=wp_cassify_save_options_general_settings",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "500e013a-98f1-4c4c-884f-9a1309962b83",
@@ -199,18 +169,14 @@
       "comment": "",
       "command": "click",
       "target": "linkText=Log Out",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "4704c165-e196-4985-b582-439af1d754d3",
       "comment": "",
       "command": "click",
       "target": "linkText=log in",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }]
   }, {
@@ -235,45 +201,35 @@
       "comment": "",
       "command": "click",
       "target": "id=username",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "a8cdf0df-454f-48be-bc19-cea829eeff21",
       "comment": "",
       "command": "type",
       "target": "id=username",
-      "targets": [
-       
-      ],
+      "targets": [],
       "value": "joe"
     }, {
       "id": "2e42f5f4-1072-45ec-b793-5a03eec0df96",
       "comment": "",
       "command": "click",
       "target": "id=password",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "79c1fe27-7b6d-4657-8bb6-6f5f15df49a1",
       "comment": "",
       "command": "type",
       "target": "id=password",
-      "targets": [
-       
-      ],
+      "targets": [],
       "value": "esup"
     }, {
       "id": "a88d2b5c-a4db-4b17-95b4-add4b880d05c",
       "comment": "",
       "command": "click",
       "target": "name=submitBtn",
-      "targets": [
-       
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "5e8f6bac-5b2d-485b-b1ee-15530fde721a",
@@ -301,18 +257,14 @@
       "comment": "",
       "command": "click",
       "target": "linkText=log out",
-      "targets": [
-       
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "c78c6612-89b4-4bda-a038-4dc31f8b8d26",
       "comment": "",
       "command": "click",
       "target": "linkText=log in",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }]
   }, {
@@ -337,54 +289,42 @@
       "comment": "",
       "command": "click",
       "target": "id=username",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "0ee62251-1242-4791-9aef-f4eccf63a7ec",
       "comment": "",
       "command": "type",
       "target": "id=username",
-      "targets": [
-       
-      ],
+      "targets": [],
       "value": "joe"
     }, {
       "id": "713b6d04-8454-40c5-bd6a-23858ad9f0b0",
       "comment": "",
       "command": "click",
       "target": "css=.caps-check > .mdc-text-field-helper-line:nth-child(2)",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "dbcafa36-14a3-4b2d-bef4-a17c736cea0d",
       "comment": "",
       "command": "click",
       "target": "id=password",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "dfdfff5e-143c-4f95-9837-ceeb55ca0dfd",
       "comment": "",
       "command": "type",
       "target": "id=password",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": "esup"
     }, {
       "id": "45958bba-5149-4389-96f3-e8e4b44d1fc1",
       "comment": "",
       "command": "click",
       "target": "css=.mdc-button:nth-child(6) > .mdc-button__label",
-      "targets": [
-       
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "f2fce3c7-1d19-4149-a9bf-a8cfd0d770ee",
@@ -398,36 +338,28 @@
       "comment": "",
       "command": "click",
       "target": "css=.menu-icon-settings > .wp-menu-name",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "aec4a07c-a934-4dd7-80b4-5a99332daaef",
       "comment": "",
       "command": "click",
       "target": "linkText=WP Cassify",
-      "targets": [
-       
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "d53a00b1-0aea-45b6-b529-dde4aeab1de8",
       "comment": "",
       "command": "click",
       "target": "id=wp_cassify_enable_gateway_mode",
-      "targets": [
-       
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "3c01f764-5950-4d4f-bc55-7f417cb3a532",
       "comment": "",
       "command": "click",
       "target": "id=wp_cassify_save_options_general_settings",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "e5db72c3-f636-4bf1-8e7e-a602d38be064",
@@ -441,18 +373,14 @@
       "comment": "",
       "command": "click",
       "target": "linkText=Log Out",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "9609f0f6-7d2d-46bc-9e62-0e7846183fa4",
       "comment": "",
       "command": "click",
       "target": "linkText=log in",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }]
   }],
@@ -462,7 +390,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["9a42396d-3acc-4648-91af-67218dccab99"]
+    "tests": ["9a42396d-3acc-4648-91af-67218dccab99", "4e87aa72-3ca6-446f-ae96-14af22034945", "338e14e8-39c3-4acb-8af0-6b99624d5119", "a1f0871e-a84b-41c9-a8aa-bdfc9b957281"]
   }],
   "urls": ["http://cas:8080/", "http://cas:8080/cas/login"],
   "plugins": []
