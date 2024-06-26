@@ -137,18 +137,14 @@
       "comment": "",
       "command": "click",
       "target": "css=.menu-icon-settings > .wp-menu-name",
-      "targets": [
-       
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "1aeb48aa-47e9-44c3-9fee-0de087790ea2",
       "comment": "",
       "command": "click",
       "target": "linkText=WP Cassify",
-      "targets": [
-        
-      ],
+      "targets": [],
       "value": ""
     }, {
       "id": "a400d140-39a5-4432-9a65-858afd64b0e3",
@@ -217,7 +213,7 @@
       "id": "d7014fcf-636c-4cec-8d31-b353cfb8ebde",
       "comment": "",
       "command": "waitForElementPresent",
-      "target": "css=#wp-admin-bar-logout > a",
+      "target": "id=wp-admin-bar-my-account",
       "targets": [],
       "value": "30000"
     }, {
