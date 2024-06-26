@@ -14,6 +14,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "bd87f7a4-6872-4e80-94a1-c14628afed68",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1432x1484",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "fcf8b9c2-2466-4874-9564-6e17c7566c07",
       "comment": "",
       "command": "click",
@@ -133,6 +140,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "806deb37-07eb-4e88-9a74-b48ed06c8468",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.menu-icon-settings",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "fac0d544-8370-436d-b52a-d679f96467e3",
       "comment": "",
       "command": "click",
@@ -212,7 +226,7 @@
     }, {
       "id": "d7014fcf-636c-4cec-8d31-b353cfb8ebde",
       "comment": "",
-      "command": "waitForElementPresent",
+      "command": "waitForElementVisible",
       "target": "id=wp-admin-bar-my-account",
       "targets": [],
       "value": "30000"
