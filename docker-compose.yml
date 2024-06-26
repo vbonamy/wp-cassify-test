@@ -81,8 +81,6 @@ services:
            condition: service_healthy
        selenium-chrome:
            condition: service_healthy
-       selenium-firefox:
-           condition: service_healthy           
        cas:
            condition: service_healthy	   
      volumes:
