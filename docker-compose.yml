@@ -73,20 +73,6 @@ services:
      ports:
        - "4444:4444"
 
-   selenium-firefox:
-     image: selenium/standalone-firefox:125.0
-     container_name: selenium-firefox
-     healthcheck:
-       test: [ "CMD-SHELL", "curl -f -LI http://selenium-firefox:4444" ]
-       interval: 10s
-       timeout: 10s
-       retries: 10    
-     shm_size: 1gb
-     ulimits:
-      nofile:
-        soft: "65536"
-        hard: "65536"
-    
    selenium-runner:
      build:
        context: selenium-runner
