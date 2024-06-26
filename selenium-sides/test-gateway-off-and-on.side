@@ -1,0 +1,329 @@
+{
+  "id": "cb4b107c-a89b-47f8-acab-e8da3bc6e841",
+  "version": "2.0",
+  "name": "gateway-on",
+  "url": "http://cas:8080/cas",
+  "tests": [{
+    "id": "e56d4997-3024-4744-9407-7a8a5070ff11",
+    "name": "a-test-auth-gateway-off",
+    "commands": [{
+      "id": "a00ce3ec-e6ad-4775-9362-2273c13d7217",
+      "comment": "",
+      "command": "open",
+      "target": "http://cas:8080/cas/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b57f0353-5d94-4e2d-b462-945097ee2473",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1520x1484",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0ee79b1-db65-4f38-a25e-f7914a666d13",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+       
+      ],
+      "value": "joe"
+    }, {
+      "id": "5b633e7b-8c44-40ce-afe5-c71e1ceb43b6",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        
+      ],
+      "value": ""
+    }, {
+      "id": "b4c55277-eca0-4e4a-b09a-2a4baa609941",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+       
+      ],
+      "value": "esup"
+    }, {
+      "id": "7c45bb67-6e45-4fcf-8662-96d851ff9055",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-form-controls",
+      "targets": [
+        
+      ],
+      "value": ""
+    }, {
+      "id": "e0910d13-2b1f-4dda-9540-27b1553d6cc1",
+      "comment": "",
+      "command": "open",
+      "target": "http://wordpress/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7d8f747-fbfb-49d7-b3de-acefa3394bf8",
+      "comment": "",
+      "command": "verifyElementNotPresent",
+      "target": "id=wp-admin-bar-my-account",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a92a225-1719-473b-af97-e1aabfc42aee",
+      "comment": "",
+      "command": "open",
+      "target": "http://cas:8080/cas/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b9b6cde-ee4f-4b8e-8cfb-891648f111c2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=log out",
+      "targets": [
+        
+      ],
+      "value": ""
+    }, {
+      "id": "b63c97b8-738c-446d-96e8-718617d78e16",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=log in",
+      "targets": [
+        
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "84115123-5916-4dd2-a6b4-f39225a17838",
+    "name": "b-activation-gateway-on",
+    "commands": [{
+      "id": "66d161fa-edff-4646-afb4-562f51bd50dc",
+      "comment": "",
+      "command": "open",
+      "target": "http://cas:8080/cas/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a97d686f-c296-4b1f-9c4e-378b23225d97",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+       
+      ],
+      "value": ""
+    }, {
+      "id": "93691b50-3b29-448e-851f-e383814b6fd1",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+       
+      ],
+      "value": "joe"
+    }, {
+      "id": "430bba0b-b988-4feb-8cec-3a27c60a21df",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        
+      ],
+      "value": ""
+    }, {
+      "id": "44943c21-5405-4794-a093-e54b686cd623",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+       
+      ],
+      "value": "esup"
+    }, {
+      "id": "d6200a28-aa09-4f71-bb29-8481a4d14e04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mdc-button:nth-child(6) > .mdc-button__label",
+      "targets": [
+       
+      ],
+      "value": ""
+    }, {
+      "id": "b168fbbb-9ace-40ca-aeeb-5ea3cecd67a9",
+      "comment": "",
+      "command": "open",
+      "target": "http://wordpress/wp-admin/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a79a55f-ca59-4fc8-8161-a87eb41950e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu-icon-settings > .wp-menu-name",
+      "targets": [
+        ["css=.menu-icon-settings > .wp-menu-name", "css:finder"],
+        ["xpath=//li[@id='menu-settings']/a/div[3]", "xpath:idRelative"],
+        ["xpath=//li[12]/a/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60ab2ec6-2ff6-4326-8b9b-f637d35b7681",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=WP Cassify",
+      "targets": [
+       
+      ],
+      "value": ""
+    }, {
+      "id": "faf06d04-5d6a-4267-8e3c-9b5715a5f9f3",
+      "comment": "",
+      "command": "click",
+      "target": "id=wp_cassify_enable_gateway_mode",
+      "targets": [
+        
+      ],
+      "value": ""
+    }, {
+      "id": "0ce5e540-619f-45d6-a9a9-46768944d399",
+      "comment": "",
+      "command": "click",
+      "target": "id=wp_cassify_save_options_general_settings",
+      "targets": [
+        
+      ],
+      "value": ""
+    }, {
+      "id": "9805b231-06b5-4dfd-a1de-9b0b85f1a562",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=wp-admin-bar-top-secondary",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30fe552d-87da-4388-b335-6f9cb77c6829",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log Out",
+      "targets": [
+        
+      ],
+      "value": ""
+    }, {
+      "id": "8abc1dda-2a78-4ae3-8853-3cafd57c50d8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=log in",
+      "targets": [
+        
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a72e8627-e9a3-4530-98bd-30cbd75e1286",
+    "name": "c-test-auth-gateway-on",
+    "commands": [{
+      "id": "d85c0d24-c9a4-431d-926f-da93a6de6566",
+      "comment": "",
+      "command": "open",
+      "target": "http://cas:8080/cas/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed6b32c3-7e75-4ac6-83b9-cb5d22c8163a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1608x1484",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a491489c-6d6d-4887-b9d7-c0b75b26abdb",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        
+      ],
+      "value": "joe"
+    }, {
+      "id": "892357d5-2cc5-42ff-9511-4a25de73eaa2",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        
+      ],
+      "value": ""
+    }, {
+      "id": "e2b4571e-32d9-4efa-b2b6-987bdf40652a",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        
+      ],
+      "value": "esup"
+    }, {
+      "id": "be6228a1-0b7a-4a84-a655-8fb1c25e7041",
+      "comment": "",
+      "command": "click",
+      "target": "name=submitBtn",
+      "targets": [
+       
+      ],
+      "value": ""
+    }, {
+      "id": "4e1a27e3-ce07-40b1-ac2a-cf0c95b55aa3",
+      "comment": "",
+      "command": "open",
+      "target": "http://wordpress/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aec92467-fad6-4070-a142-5c90d1a68742",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=wp-admin-bar-my-account",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a2b0709-05ba-40b3-9ad7-66ef4e33e496",
+      "comment": "",
+      "command": "open",
+      "target": "http://cas:8080/cas/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e674045d-fe59-4bee-a4a0-0eae4eaf0b2a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=log out",
+      "targets": [
+       
+      ],
+      "value": ""
+    }, {
+      "id": "313456a8-df03-4f88-b0b5-1179983da0bf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=log in",
+      "targets": [
+   
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "544cc3d0-d0d8-4571-b4b1-23cc184aad5c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e56d4997-3024-4744-9407-7a8a5070ff11"]
+  }],
+  "urls": ["http://cas:8080/cas/login", "http://cas:8080/cas"],
+  "plugins": []
+}
