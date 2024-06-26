@@ -1,0 +1,110 @@
+{
+  "id": "5c99de92-1ae3-4754-b98f-bdab8dc45f69",
+  "version": "2.0",
+  "name": "03-test-gateway-on",
+  "url": "http://cas:8080/cas/login",
+  "tests": [{
+    "id": "5302742a-7665-4a79-81de-f3191acd20c2",
+    "name": "03-test-gateway-on",
+    "commands": [{
+      "id": "e3d810f3-8d94-45ea-b713-25b8f389e99d",
+      "comment": "",
+      "command": "open",
+      "target": "http://cas:8080/cas/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ad10705-8b6d-4c04-b854-6c64ee2be44e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1388x1484",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b23810c4-ff26-4765-8c43-5ae0d9ddc1ee",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        
+      ],
+      "value": "joe"
+    }, {
+      "id": "bbb0a952-e688-4aa3-9230-ab233ad49a95",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        
+      ],
+      "value": ""
+    }, {
+      "id": "41472ea8-af99-4477-945b-98b1fc4bdb8b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+       
+      ],
+      "value": "esup"
+    }, {
+      "id": "ed65023d-b88b-4405-895d-6b01e8e35471",
+      "comment": "",
+      "command": "click",
+      "target": "name=submitBtn",
+      "targets": [
+        
+      ],
+      "value": ""
+    }, {
+      "id": "4751b467-7cc6-4dcc-b937-f18eb8bc5dbe",
+      "comment": "",
+      "command": "open",
+      "target": "http://wordpress/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "692c50dc-c597-4569-92c8-61d785bbfe70",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=wp-admin-bar-top-secondary",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8caf68eb-9634-4728-9ffe-1f8a393926e1",
+      "comment": "",
+      "command": "open",
+      "target": "http://cas:8080/cas/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c98ca818-80dc-4a3f-a0e1-7461115fe167",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=log out",
+      "targets": [
+        
+      ],
+      "value": ""
+    }, {
+      "id": "9bce2b66-26bb-41b9-b8ce-2a553d361098",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=log in",
+      "targets": [
+        
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c590c621-9169-4e95-817c-d55186c9104e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5302742a-7665-4a79-81de-f3191acd20c2"]
+  }],
+  "urls": ["http://cas:8080/cas/login"],
+  "plugins": []
+}
