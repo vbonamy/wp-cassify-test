@@ -59,7 +59,6 @@ services:
 
    selenium-chrome:
      image: selenium/standalone-chrome:125.0
-     container_name: selenium-chrome     
      healthcheck:
        test: [ "CMD-SHELL", "curl -f -LI http://selenium-chrome:4444" ]
        interval: 10s
