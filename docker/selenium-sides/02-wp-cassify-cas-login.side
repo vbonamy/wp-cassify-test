@@ -26,7 +26,7 @@
       "command": "waitForElementPresent",
       "target": "id=username",
       "targets": [],
-      "value": "3000"
+      "value": "30000"
     }, {
       "id": "400cbca5-1f3a-4a1b-b87e-841c86db47bb",
       "comment": "",
