@@ -203,13 +203,6 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "fa587d22-c3a3-4693-a988-18842ffbce0d",
-      "comment": "",
-      "command": "clickAt",
-      "target": "id=wp_cassify_user_role_rule",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "76b9066a-2153-4152-8d5e-9f49d71e6d74",
       "comment": "",
       "command": "type",
