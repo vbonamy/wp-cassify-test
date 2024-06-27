@@ -95,4 +95,21 @@ selenium-side-runner -d -s http://localhost:4444 docker/selenium-sides/03-test-g
 
 ## Github Actions
 
-The project is also configured to run the tests on Github Actions. The workflow is defined in the file `.github/workflows/docker-selenium-tests.yml` and `.github/workflows/docker-selenium-tests-php7.yml` (to keep compatibility woth wordpress on php7)
+The project is also configured to run the tests on Github Actions. 
+The workflow is defined in the file `.github/workflows/docker-selenium-tests.yml` and `.github/workflows/docker-selenium-tests-php7.yml` 
+(to keep compatibility woth wordpress on php7)
+
+## Development environment
+
+You can use Eclipse-Php or Visual Studio Code oro PhpStorm to edit wp-cassify.
+
+If you want source of wordpress, you can copy it from container to host : 
+```
+docker cp wordpress_caontainer_id:/var/www/html/wordpress /home/toto/wordpress
+```
+
+Next you can open the project with your IDE.
+
+## License
+
+This project is licensed under the GPLv2 License - same as WP-Cassify plugin and as WordPress itself.
