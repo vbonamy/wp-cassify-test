@@ -9,7 +9,7 @@ uid: admin
 sn: admin
 cn: admin
 objectClass: inetOrgPerson
-userPassword: esup
+userPassword: pass
 mail: admin@example.org
 
 dn: uid=joe,ou=people,dc=example,dc=org
@@ -18,7 +18,7 @@ uid: joe
 sn: joe
 cn: joe
 objectClass: inetOrgPerson
-userPassword: esup
+userPassword: pass
 mail: joe@example.org
 
 dn: uid=jack,ou=people,dc=example,dc=org
@@ -27,7 +27,7 @@ uid: jack
 sn: jack
 cn: jack
 objectClass: inetOrgPerson
-userPassword: esup
+userPassword: pass
 mail: jack@example.org
 
 dn: ou=groups,dc=example,dc=org

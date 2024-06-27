@@ -33,7 +33,7 @@
       "command": "type",
       "target": "id=password",
       "targets": [],
-      "value": "esup"
+      "value": "pass"
     }, {
       "id": "c5347b26-ba00-49aa-a19c-0cd53c871c91",
       "comment": "",

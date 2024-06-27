@@ -51,7 +51,7 @@ On the WordPress instance, the Selenium Test configured Administrators are users
 So you can login with the following credentials:
 ```
 username: joe
-password: esup
+password: pass
 ```
 
 ## Reset the wordpress instance
@@ -70,7 +70,7 @@ docker exec -it <container_id> bash
 
 Then you connect to the mariadb database:
 ```
-mariadb -psomewordpress
+mariadb -ppass
 ```
 
 You delete and (re)create the wordpress database:

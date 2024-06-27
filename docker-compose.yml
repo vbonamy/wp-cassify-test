@@ -2,10 +2,10 @@ services:
    db:
      image: mariadb
      environment:
-       MARIADB_ROOT_PASSWORD: somewordpress
+       MARIADB_ROOT_PASSWORD: pass
        MARIADB_DATABASE: wordpress
        MARIADB_USER: wordpress
-       MARIADB_PASSWORD: wordpress
+       MARIADB_PASSWORD: pass
 
    wordpress:
      depends_on:
@@ -22,7 +22,7 @@ services:
      environment:
        WORDPRESS_DB_HOST: db:3306
        WORDPRESS_DB_USER: wordpress
-       WORDPRESS_DB_PASSWORD: wordpress
+       WORDPRESS_DB_PASSWORD: pass
        XDEBUG_CONFIG: client_host=10.197.1.85
        WORDPRESS_CONFIG_EXTRA: |
         define('DISABLE_WP_CRON', true );

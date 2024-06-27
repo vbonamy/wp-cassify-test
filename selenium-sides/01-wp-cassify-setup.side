@@ -40,14 +40,14 @@
       "command": "type",
       "target": "id=user_login",
       "targets": [],
-      "value": "wp-cassify-test"
+      "value": "adm"
     }, {
       "id": "b517f907-bc99-4100-8c54-75d3bdbf7b36",
       "comment": "",
       "command": "type",
       "target": "id=pass1",
       "targets": [],
-      "value": "secret"
+      "value": "pass"
     }, {
       "id": "bb8ba7ba-4fc4-4308-af4b-2a5a01582011",
       "comment": "",
@@ -61,7 +61,7 @@
       "command": "type",
       "target": "id=admin_email",
       "targets": [],
-      "value": "wp-cassify-test@example.org"
+      "value": "adm@example.org"
     }, {
       "id": "c18051c3-8b49-44ca-b08e-d34605d04522",
       "comment": "",
@@ -82,14 +82,14 @@
       "command": "type",
       "target": "id=user_login",
       "targets": [],
-      "value": "wp-cassify-test"
+      "value": "adm"
     }, {
       "id": "f9a3a689-e236-4886-bd19-a3e7d1558f68",
       "comment": "",
       "command": "type",
       "target": "id=user_pass",
       "targets": [],
-      "value": "secret"
+      "value": "pass"
     }, {
       "id": "0f65ac1b-675e-4c68-8abf-80db9e90cc8b",
       "comment": "",
