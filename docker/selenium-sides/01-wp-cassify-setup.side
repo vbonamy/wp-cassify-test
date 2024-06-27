@@ -2,7 +2,7 @@
   "id": "08f8d02b-884d-431c-b39d-0b07807b7899",
   "version": "2.0",
   "name": "wp-cassify-setup",
-  "url": "http://wordpress",
+  "url": "http://wordpress.example.org",
   "tests": [{
     "id": "ab0d11aa-6261-42a4-aa72-7dde57f0268c",
     "name": "wp-cassify-setup",
@@ -180,7 +180,7 @@
       "command": "type",
       "target": "id=wp_cassify_base_url",
       "targets": [],
-      "value": "http://cas:8080/cas/"
+      "value": "http://cas.example.org:8080/cas/"
     }, {
       "id": "3244a94f-00b1-4ddb-9c4f-9f5038f43dd1",
       "comment": "",
@@ -296,6 +296,5 @@
     "timeout": 300,
     "tests": ["ab0d11aa-6261-42a4-aa72-7dde57f0268c"]
   }],
-  "urls": ["http://wordpress/"],
   "plugins": []
 }

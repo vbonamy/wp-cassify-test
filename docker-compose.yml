@@ -13,7 +13,7 @@ services:
      build:
       context: ./docker/wordpress-php8
      healthcheck:
-      test: [ "CMD-SHELL", "curl -f -I http://wordpress" ]
+      test: [ "CMD-SHELL", "curl -f -I http://wordpress.example.org" ]
       interval: 10s
       timeout: 10s
       retries: 10
@@ -31,8 +31,9 @@ services:
      networks:
        default:
          aliases:
-           - wordpress1
-           - wordpress2
+           - wordpress.example.org
+           - wordpress1.example.org
+           - wordpress2.example.org
 
    openldap:
      image: osixia/openldap:1.5.0
@@ -49,7 +50,7 @@ services:
          FROM esupportail/apereo-cas-ldap:7.0.5.1
          RUN apt-get update && apt-get -y install curl
      healthcheck:
-      test: [ "CMD-SHELL", "curl -f -I http://cas:8080/cas" ]
+      test: [ "CMD-SHELL", "curl -f -I http://cas.example.org:8080/cas" ]
       interval: 10s
       timeout: 10s
       retries: 10     
@@ -60,6 +61,10 @@ services:
        - "8080:8080"
      depends_on:
        - openldap
+     networks:
+       default:
+         aliases:
+           - cas.example.org       
 
    selenium-chrome:
      image: selenium/standalone-chrome:125.0

@@ -2,7 +2,7 @@
   "id": "34f8647d-aaf6-4ead-9112-a27e6f0d987a",
   "version": "2.0",
   "name": "03-test-gateway-on-and-off",
-  "url": "http://cas:8080/cas/login",
+  "url": "http://cas.example.org:8080/cas/login",
   "tests": [{
     "id": "9a42396d-3acc-4648-91af-67218dccab99",
     "name": "02-test-gateway-off",
@@ -10,7 +10,7 @@
       "id": "a884f372-02b1-4035-a2b6-92ef8cd16bf8",
       "comment": "",
       "command": "open",
-      "target": "http://cas:8080/cas/login",
+      "target": "http://cas.example.org:8080/cas/login",
       "targets": [],
       "value": ""
     }, {
@@ -52,7 +52,7 @@
       "id": "00e91c4f-595d-4e37-87bd-ac330bab5a83",
       "comment": "",
       "command": "open",
-      "target": "http://wordpress/",
+      "target": "http://wordpress.example.org/",
       "targets": [],
       "value": ""
     }, {
@@ -66,7 +66,7 @@
       "id": "30e64e14-b9d3-41db-a030-e6e055c87d2d",
       "comment": "",
       "command": "open",
-      "target": "http://cas:8080/cas/login",
+      "target": "http://cas.example.org:8080/cas/login",
       "targets": [],
       "value": ""
     }, {
@@ -91,7 +91,7 @@
       "id": "437182d8-9b6e-415e-bd72-47116560247b",
       "comment": "",
       "command": "open",
-      "target": "http://cas:8080/cas/login",
+      "target": "http://cas.example.org:8080/cas/login",
       "targets": [],
       "value": ""
     }, {
@@ -133,7 +133,7 @@
       "id": "d919dd69-535a-4f8f-88c7-4ffe4b3ad255",
       "comment": "",
       "command": "open",
-      "target": "http://wordpress/wp-admin/index.php",
+      "target": "http://wordpress.example.org/wp-admin/index.php",
       "targets": [],
       "value": ""
     }, {
@@ -207,7 +207,7 @@
       "id": "09d3fe98-34fe-4656-a184-0a6afaa47561",
       "comment": "",
       "command": "open",
-      "target": "http://cas:8080/cas/login",
+      "target": "http://cas.example.org:8080/cas/login",
       "targets": [],
       "value": ""
     }, {
@@ -256,7 +256,7 @@
       "id": "5e8f6bac-5b2d-485b-b1ee-15530fde721a",
       "comment": "",
       "command": "open",
-      "target": "http://wordpress/",
+      "target": "http://wordpress.example.org/",
       "targets": [],
       "value": ""
     }, {
@@ -270,7 +270,7 @@
       "id": "768d6bad-f1c3-4a87-b98f-1a7101b090a5",
       "comment": "",
       "command": "open",
-      "target": "http://cas:8080/cas/login",
+      "target": "http://cas.example.org:8080/cas/login",
       "targets": [],
       "value": ""
     }, {
@@ -295,7 +295,7 @@
       "id": "a63cb070-bc11-4a22-953a-a14a81458298",
       "comment": "",
       "command": "open",
-      "target": "http://cas:8080/cas/login",
+      "target": "http://cas.example.org:8080/cas/login",
       "targets": [],
       "value": ""
     }, {
@@ -348,7 +348,7 @@
       "id": "f2fce3c7-1d19-4149-a9bf-a8cfd0d770ee",
       "comment": "",
       "command": "open",
-      "target": "http://wordpress/wp-admin/index.php",
+      "target": "http://wordpress.example.org/wp-admin/index.php",
       "targets": [],
       "value": ""
     }, {
@@ -417,6 +417,6 @@
     "timeout": 300,
     "tests": ["9a42396d-3acc-4648-91af-67218dccab99", "4e87aa72-3ca6-446f-ae96-14af22034945", "338e14e8-39c3-4acb-8af0-6b99624d5119", "a1f0871e-a84b-41c9-a8aa-bdfc9b957281"]
   }],
-  "urls": ["http://cas:8080/", "http://cas:8080/cas/login"],
+  "urls": ["http://cas.example.org:8080/", "http://cas:8080/cas/login"],
   "plugins": []
 }

@@ -2,7 +2,7 @@
   "id": "7901159b-e13c-4d45-a801-d02756612842",
   "version": "2.0",
   "name": "single-sign-on-off",
-  "url": "http://cas:8080/cas/login",
+  "url": "http://cas.example.org:8080/cas/login",
   "tests": [{
     "id": "b1d95035-b47d-4e50-8417-dbf494e5f661",
     "name": "01-off",
@@ -10,7 +10,7 @@
       "id": "4f34ec18-d5c7-47af-9cf8-ae98fa7bd61d",
       "comment": "",
       "command": "open",
-      "target": "http://cas:8080/cas/login",
+      "target": "http://cas.example.org:8080/cas/login",
       "targets": [],
       "value": ""
     }, {
@@ -60,7 +60,7 @@
       "id": "b4442e7c-e791-48da-bcfd-19f346247fc2",
       "comment": "",
       "command": "open",
-      "target": "http://wordpress/wp-admin/",
+      "target": "http://wordpress.example.org/wp-admin/",
       "targets": [],
       "value": ""
     }, {
@@ -74,7 +74,7 @@
       "id": "bc3cd803-2bd4-457c-a98d-604947237bd9",
       "comment": "",
       "command": "open",
-      "target": "http://cas:8080/cas/login",
+      "target": "http://cas.example.org:8080/cas/login",
       "targets": [],
       "value": ""
     }, {
@@ -90,7 +90,7 @@
       "id": "16248773-a973-4285-8cae-0210880e2a7e",
       "comment": "",
       "command": "open",
-      "target": "http://wordpress/wp-admin/",
+      "target": "http://wordpress.example.org/wp-admin/",
       "targets": [],
       "value": ""
     }, {
@@ -104,7 +104,7 @@
       "id": "fb2d557d-cf19-4495-be4f-27044d8837d8",
       "comment": "",
       "command": "open",
-      "target": "http://cas:8080/cas/login",
+      "target": "http://cas.example.org:8080/cas/login",
       "targets": [],
       "value": ""
     }]
@@ -115,7 +115,7 @@
       "id": "84bc5ca3-dafb-480b-ba9a-6aae3abf08fe",
       "comment": "",
       "command": "open",
-      "target": "http://cas:8080/cas/login",
+      "target": "http://cas.example.org:8080/cas/login",
       "targets": [],
       "value": ""
     }, {
@@ -189,7 +189,7 @@
       "id": "316df49d-baf0-4cd2-a4bd-085e06159fa9",
       "comment": "",
       "command": "open",
-      "target": "http://wordpress/wp-admin/",
+      "target": "http://wordpress.example.org/wp-admin/",
       "targets": [],
       "value": ""
     }, {
@@ -268,7 +268,7 @@
       "id": "674b21b4-d6a0-41fd-9204-9cc8257daef5",
       "comment": "",
       "command": "open",
-      "target": "http://cas:8080/cas/login",
+      "target": "http://cas.example.org:8080/cas/login",
       "targets": [],
       "value": ""
     }, {
@@ -318,7 +318,7 @@
       "id": "64875dba-4362-4ecd-8e4c-a50957713d10",
       "comment": "",
       "command": "open",
-      "target": "http://wordpress/wp-admin/",
+      "target": "http://wordpress.example.org/wp-admin/",
       "targets": [],
       "value": ""
     }, {
@@ -332,7 +332,7 @@
       "id": "55284251-4d3a-4d85-bbcf-77742a5fb901",
       "comment": "",
       "command": "open",
-      "target": "http://cas:8080/cas/login",
+      "target": "http://cas.example.org:8080/cas/login",
       "targets": [],
       "value": ""
     }, {
@@ -357,7 +357,7 @@
       "id": "9a7bb764-3218-475a-a8ed-fd17f7f7a45d",
       "comment": "",
       "command": "open",
-      "target": "http://wordpress/wp-admin/",
+      "target": "http://wordpress.example.org/wp-admin/",
       "targets": [],
       "value": ""
     }, {
@@ -371,7 +371,7 @@
       "id": "897cfec2-1b71-46ef-a416-b88b53c5e1fc",
       "comment": "",
       "command": "open",
-      "target": "http://cas:8080/cas/login",
+      "target": "http://cas.example.org:8080/cas/login",
       "targets": [],
       "value": ""
     }]
@@ -382,7 +382,7 @@
       "id": "1ec25b2c-47c2-4dcd-b550-14c863d8caab",
       "comment": "",
       "command": "open",
-      "target": "http://cas:8080/cas/login",
+      "target": "http://cas.example.org:8080/cas/login",
       "targets": [],
       "value": ""
     }, {
@@ -432,7 +432,7 @@
       "id": "b1156de7-5779-4601-83f5-822a9cadaaed",
       "comment": "",
       "command": "open",
-      "target": "http://wordpress/wp-admin/",
+      "target": "http://wordpress.example.org/wp-admin/",
       "targets": [],
       "value": ""
     }, {
@@ -513,6 +513,6 @@
     "timeout": 300,
     "tests": ["b1d95035-b47d-4e50-8417-dbf494e5f661"]
   }],
-  "urls": ["http://cas:8080/cas/login"],
+  "urls": ["http://cas.example.org:8080/cas/login"],
   "plugins": []
 }

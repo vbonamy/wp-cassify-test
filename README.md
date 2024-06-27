@@ -40,10 +40,10 @@ Ports 80, 8080 and 4444 are exposed on the host machine and must be free.
 
 The WordPress instance is available at http://localhost but to be compliant with selenium tests, it is better to modify the /etc/hosts file to add the following line:
 ```
-127.0.0.1 wordpress cas
+127.0.0.1 cas.example.org wordpress.example.org wordpress1.example.org wordpress2.example.org
 ```
 
-With this, you can access the WordPress instance at http://wordpress and the CAS server at http://cas:8080.
+With this, you can access the WordPress instance at http://wordpress.example.org and the CAS server at http://cas.example.org:8080.
 
 Selenium Grid is available at http://localhost:4444.
 
