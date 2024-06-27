@@ -11,7 +11,7 @@ services:
      depends_on:
        - db
      build:
-      context: ./wordpress-php8
+      context: ./docker/wordpress-php8
      healthcheck:
       test: [ "CMD-SHELL", "curl -f -I http://wordpress" ]
       interval: 10s
@@ -40,7 +40,7 @@ services:
        LDAP_DOMAIN: "example.org"
      command: --copy-service
      volumes:
-      - ./ldap-config:/container/service/slapd/assets/config/bootstrap/ldif/custom
+      - ./docker/ldap-config:/container/service/slapd/assets/config/bootstrap/ldif/custom
 
    cas:
      build:
@@ -54,8 +54,8 @@ services:
       timeout: 10s
       retries: 10     
      volumes:
-       - ./cas-config:/etc/cas
-       - ./cas-config/tmp-cas:/tmp/cas
+       - ./docker/cas-config:/etc/cas
+       - ./docker/cas-config/tmp-cas:/tmp/cas
      ports:
        - "8080:8080"
      depends_on:
@@ -78,7 +78,7 @@ services:
 
    selenium-runner:
      build:
-       context: selenium-runner
+       context: ./docker/selenium-runner
      depends_on:
        wordpress:
            condition: service_healthy
@@ -87,6 +87,6 @@ services:
        cas:
            condition: service_healthy	   
      volumes:
-       - './selenium-sides:/selenium-sides'
+       - './docker/selenium-sides:/selenium-sides'
 
 
