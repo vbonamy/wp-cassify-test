@@ -10,7 +10,7 @@
       "id": "7a5bf451-7ead-4538-a63c-78e45860021c",
       "comment": "",
       "command": "open",
-      "target": "/wp-admin",
+      "target": "/wp-admin/profile.php",
       "targets": [],
       "value": ""
     }, {
@@ -42,19 +42,26 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "8f007826-1781-4150-9f1c-9375ff49b96f",
+      "id": "d3eb8186-cb17-4e46-a875-aefbe258af36",
       "comment": "",
       "command": "waitForElementVisible",
-      "target": "css=.display-name",
+      "target": "id=nickname",
       "targets": [],
       "value": "30000"
     }, {
       "id": "5efb9004-d180-4065-a700-3dc7833ff56f",
       "comment": "",
-      "command": "verifyText",
-      "target": "css=.display-name",
+      "command": "verifyValue",
+      "target": "id=nickname",
       "targets": [],
       "value": "joe"
+    }, {
+      "id": "f47f08d5-2458-4e9e-9e9f-ad13d7ccd001",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=wp-admin-bar-new-content",
+      "targets": [],
+      "value": ""
     }, {
       "id": "f844351b-6b14-4248-ac46-6eb75e8f5719",
       "comment": "",
@@ -70,10 +77,17 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "03004b50-2b4c-4b12-9695-b10ac8674163",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=#wp-admin-bar-logout > a",
+      "targets": [],
+      "value": "30000"
+    }, {
       "id": "4d2f3e0a-b618-43c6-bfa9-a4e482dad943",
       "comment": "",
       "command": "click",
-      "target": "linkText=Log Out",
+      "target": "css=#wp-admin-bar-logout > a",
       "targets": [],
       "value": ""
     }]
