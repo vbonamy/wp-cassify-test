@@ -88,6 +88,11 @@ You can relaunch the selenium tests with Selenium IDE :
 docker up selenium-runner 
 ```
 
+... or you can also relaunch somes tests via selenium-runner directly with the following command for example:
+```
+selenium-side-runner -d -s http://localhost:4444 docker/selenium-sides/03-test-gateway-on-and-off.side
+```
+
 ## Github Actions
 
 The project is also configured to run the tests on Github Actions. The workflow is defined in the file `.github/workflows/docker-selenium-tests.yml` and `.github/workflows/docker-selenium-tests-php7.yml` (to keep compatibility woth wordpress on php7)
