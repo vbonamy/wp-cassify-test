@@ -21,6 +21,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "ca2f8060-37b4-4b2e-98c2-298e499ca69e",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=username",
+      "targets": [],
+      "value": "3000"
+    }, {
       "id": "400cbca5-1f3a-4a1b-b87e-841c86db47bb",
       "comment": "",
       "command": "type",
