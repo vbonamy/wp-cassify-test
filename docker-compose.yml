@@ -43,7 +43,11 @@ services:
       - ./ldap-config:/container/service/slapd/assets/config/bootstrap/ldif/custom
 
    cas:
-     image: esupportail/apereo-cas-ldap:6.6.15.2
+     build:
+       context: .
+       dockerfile_inline: |
+         FROM esupportail/apereo-cas-ldap:7.0.5.1
+         RUN apt-get update && apt-get -y install curl
      healthcheck:
       test: [ "CMD-SHELL", "curl -f -I http://cas:8080/cas" ]
       interval: 10s
