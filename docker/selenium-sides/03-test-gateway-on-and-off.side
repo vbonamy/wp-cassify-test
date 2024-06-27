@@ -1,7 +1,7 @@
 {
   "id": "34f8647d-aaf6-4ead-9112-a27e6f0d987a",
   "version": "2.0",
-  "name": "02-test-gateway-on-and-off",
+  "name": "03-test-gateway-on-and-off",
   "url": "http://cas:8080/cas/login",
   "tests": [{
     "id": "9a42396d-3acc-4648-91af-67218dccab99",
@@ -45,7 +45,7 @@
       "id": "8a545af5-845a-4417-9306-9c8f44c94672",
       "comment": "",
       "command": "click",
-      "target": "css=.mdc-button:nth-child(6) > .mdc-button__label",
+      "target": "name=submitBtn",
       "targets": [],
       "value": ""
     }, {
@@ -100,7 +100,7 @@
       "command": "setWindowSize",
       "target": "1432x1484",
       "targets": [],
-      "value": ""      
+      "value": ""
     }, {
       "id": "aee6d9db-fc68-48ad-9442-89f364b8f347",
       "comment": "",
@@ -178,6 +178,13 @@
       "target": "id=wp-admin-bar-my-account",
       "targets": [],
       "value": ""
+    }, {
+      "id": "c949e702-1762-49d7-8d2b-cf6fdad685f6",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=#wp-admin-bar-my-account > a",
+      "targets": [],
+      "value": "30000"
     }, {
       "id": "adf122e7-2c24-4c3d-9ebc-1283c253eff1",
       "comment": "",
@@ -313,13 +320,6 @@
       "targets": [],
       "value": "joe"
     }, {
-      "id": "713b6d04-8454-40c5-bd6a-23858ad9f0b0",
-      "comment": "",
-      "command": "click",
-      "target": "css=.caps-check > .mdc-text-field-helper-line:nth-child(2)",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "dbcafa36-14a3-4b2d-bef4-a17c736cea0d",
       "comment": "",
       "command": "click",
@@ -337,8 +337,12 @@
       "id": "45958bba-5149-4389-96f3-e8e4b44d1fc1",
       "comment": "",
       "command": "click",
-      "target": "css=.mdc-button:nth-child(6) > .mdc-button__label",
-      "targets": [],
+      "target": "name=submitBtn",
+      "targets": [
+        ["css=.mdc-button:nth-child(6) > .mdc-button__label", "css:finder"],
+        ["xpath=//div[@id='login-form-controls']/button/span", "xpath:idRelative"],
+        ["xpath=//div/button/span", "xpath:position"]
+      ],
       "value": ""
     }, {
       "id": "f2fce3c7-1d19-4149-a9bf-a8cfd0d770ee",
@@ -353,7 +357,7 @@
       "command": "setWindowSize",
       "target": "1432x1484",
       "targets": [],
-      "value": ""      
+      "value": ""
     }, {
       "id": "aae9bf01-126a-4013-8338-9e93488e38e5",
       "comment": "",
