@@ -208,7 +208,7 @@
       "command": "type",
       "target": "id=wp_cassify_user_role_rule",
       "targets": [],
-      "value": "(CAS{cas_user_id} -EQ \"joe\") "
+      "value": "(CAS{cas_user_id} -EQ \"joe\")"
     }, {
       "id": "6528e8b9-5503-4196-9f25-66725a2114e2",
       "comment": "",
@@ -237,6 +237,20 @@
       "target": "id=wp_cassify_save_options_users_roles_settings",
       "targets": [],
       "value": ""
+    }, {
+      "id": "a01d88d4-fbc9-4618-abc4-410bfde8ff84",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#wp_cassify_user_role_rules > option",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "46468723-c758-4847-980e-134e98c03f75",
+      "comment": "",
+      "command": "verifyValue",
+      "target": "css=#wp_cassify_user_role_rules > option",
+      "targets": [],
+      "value": "administrator|(CAS{cas_user_id} -EQ \"joe\")"
     }, {
       "id": "d7014fcf-636c-4cec-8d31-b353cfb8ebde",
       "comment": "",
