@@ -2,4 +2,4 @@ services:
 
   wordpress:
      build:
-      context: ./wordpress-php7
+      context: ./docker/wordpress-php7
