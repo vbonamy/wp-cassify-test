@@ -44,7 +44,7 @@
     }, {
       "id": "d3eb8186-cb17-4e46-a875-aefbe258af36",
       "comment": "",
-      "command": "waitForElementVisible",
+      "command": "waitForElementPresent",
       "target": "id=nickname",
       "targets": [],
       "value": "30000"
