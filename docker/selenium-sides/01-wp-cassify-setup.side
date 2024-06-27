@@ -1,5 +1,5 @@
 {
-  "id": "08f8d02b-884d-431c-b39d-0b07807b7899",
+  "id": "b63b272a-8154-4155-ba7f-f3ad4800548a",
   "version": "2.0",
   "name": "wp-cassify-setup",
   "url": "http://wordpress.example.org",
@@ -217,17 +217,17 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "925a427f-ab02-437a-b5da-0f4cc444e861",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=#wp_cassify_user_role_rules > option",
+      "targets": [],
+      "value": "30000"
+    }, {
       "id": "1b3ac824-383d-4dec-9785-8e710c48c352",
       "comment": "",
       "command": "click",
       "target": "id=wp_cassify_user_purge_user_roles_before_applying_rules",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "7f104184-79f9-422f-a330-60a70e3daf2a",
-      "comment": "",
-      "command": "pause",
-      "target": "10000",
       "targets": [],
       "value": ""
     }, {
@@ -296,5 +296,6 @@
     "timeout": 300,
     "tests": ["ab0d11aa-6261-42a4-aa72-7dde57f0268c"]
   }],
+  "urls": ["http://wordpress.example.org/"],
   "plugins": []
 }
