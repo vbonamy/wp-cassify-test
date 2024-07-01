@@ -12,9 +12,10 @@ The same docker-compose provides also
  * and a selenium runner that runs the tests
 
 The tests are edited with Selenium IDE.
-There are two tests:
+There are currently tree tests:
  * one that make the install of wordpress and the plugin and a simple configuration of the plugin (wp-cassify)
  * one that make the login with CAS on wordpress
+ * one that make the login with the gateway feature of the CAS protocol 
 
 ## Usage
 
@@ -82,6 +83,7 @@ CREATE DATABASE wordpress;
 You can relaunch the selenium tests with Selenium IDE :
 * selenium-sides/01-wp-cassify-setup.side
 * selenium-sides/02-wp-cassify-cas-login.side
+* selenium-sides/03-test-gateway-on-and-off.side
 
 ... or you can also relaunch the tests via the docker 'selenium-runner' with the following command:
 ```
@@ -115,7 +117,7 @@ rm -r /tmp/wordpress/wp-content/plugins/wp-cassify
 ln -s /home/wp-cassify-develop/wp-cassify /tmp/wordpress/wp-content/plugins/
 ```
 
-Next you can open the project with your IDE.
+Next you can open the project with your IDE from the directory /home/toto/wordpress.
 
 For XDebug, you have to configure the IDE to listen on port 9003. 
 
