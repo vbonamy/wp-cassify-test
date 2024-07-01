@@ -97,18 +97,27 @@ selenium-side-runner -d -s http://localhost:4444 docker/selenium-sides/03-test-g
 
 The project is also configured to run the tests on Github Actions. 
 The workflow is defined in the file `.github/workflows/docker-selenium-tests.yml` and `.github/workflows/docker-selenium-tests-php7.yml` 
-(to keep compatibility woth wordpress on php7)
+(to keep compatibility with wordpress on php7)
 
 ## Development environment
 
-You can use Eclipse-Php or Visual Studio Code oro PhpStorm to edit wp-cassify.
+You can use Eclipse-Php or Visual Studio Code or PhpStorm  or VsCode to edit wp-cassify.
 
-If you want source of wordpress, you can copy it from container to host : 
+The best is to use the docker-compose file with xdebug to debug the plugin.
 ```
-docker cp wordpress_caontainer_id:/var/www/html/wordpress /home/toto/wordpress
+docker compose -f docker-compose.yml -f docker-compose-xdebug.yml up
+```
+With this, you have /tmp/wordpress that is a bind volume to /var/ww/html of the wordpress container.
+
+To edit also the wp-cassify plugin, just make a symbolic link in /tmp/wordpress/wp-content/plugins to the wp-cassify plugin directory.
+```
+rm -r /tmp/wordpress/wp-content/plugins/wp-cassify
+ln -s /home/wp-cassify-develop/wp-cassify /tmp/wordpress/wp-content/plugins/
 ```
 
 Next you can open the project with your IDE.
+
+For XDebug, you have to configure the IDE to listen on port 9003. 
 
 ## License
 
